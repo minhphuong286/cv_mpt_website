@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <title>CV TMP</title>
+        <link rel="icon" type="image/x-icon" href="resources/img/favicon.ico">
+        <!--  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+        <link rel="stylesheet" href="resources\css\style.css">
+        <link rel="stylesheet" href="resources\css\color.css">
+        <link rel="stylesheet" href="resources/css/responsive.css">
+        
+        <script src="resources\js\javascript.js"></script>
+    </head>
+    <body> 
+        <button id="toTop"  title="Go to top "><i class="fa fa-arrow-circle-up"></i></button>
+        <header>
+            <nar class="sticky" >
+                <a href="#"><img class="logo" src=".\resources\img\logo.png" alt="logo"></a>
+                <ul class="main-nav">
+                    <li><a href="#testimonials">How Clients Think</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Product</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa fa-bars mobile-nav-icon"></i>
+            </nar>
+            
+            <!-- <div class="clearfix"></div> -->
+            <div class="row">
+                <div class="heading-main-box">
+                    <h1>
+                        We will study <br> English together. <br>
+                        So join with us.
+                    </h1>
+                    <a href="#" class="btn">Tell me more</a>
+                    <a href="#" class="btn">Join us</a>
+                </div>
+            </div>
+        </header>
+        <section class="about-section" id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p class="p-long">
+                    We are people that are studying English by ourselves, we believe that you don't need to pay so much money for being good at English. We're here to help you.
+                </p>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 about-picture">
+                        <img src="./resources/img/activities1.jpeg" alt="activities1">
+                        <p class="picture-title">
+                            Team Working
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6  about-picture">
+                        <img src="./resources/img/activities2.jpeg" alt="activities2">
+                        <p class="picture-title">
+                            Funny class
+                        </p>
+                    </div><div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 about-picture">
+                        <img src="./resources/img/activities3.jpeg" alt="activities3">
+                        <p class="picture-title">
+                            Be confident
+                        </p>
+                    </div><div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 about-picture">
+                        <img src="./resources/img/activities4.jpeg" alt="activities4">
+                        <p class="picture-title">
+                            All our friends
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <div class="photos-section">
+            <div class="container">
+                <h2>Photos</h2>
+                <p class="p-long">
+                    We show some photos about our classes.
+                </p>
+                <div class="row">
+                    <div class="show-image">
+                        <select id="imageList" name="imageList" size="5" >
+                            <option value="performance.jpg">Performance</option>
+                            <option value="speaking.jpg">Speaking</option>
+                            <option value="teamwork.jpg">Teamwork</option>
+                            <option value="confidently.jpg">Confidently</option>
+                            <option value="friendly.jpg">Friendly</option>
+                        </select>
+                        <img id="img" src="resources/img/class/performance.jpg">
+                        <div class="clearfix"></div>
+                        <p id="imgLabels" >performance.jpg (1/5)</p>
+                        <div class="remote-image">
+                            <button onclick="preImg()" type="button" id="backbtn" class="btn">Back</button>
+                            <button onclick="showSlide()" id="slideshow" class="btn" type="button">Start slideshow</button>
+                            <button onclick="nextImg()" type="button" id="nextbtn" class="btn">Next</button>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            <!-- <div class="clearfix"></div> -->
+        </div>
+        <section class="products-section" id="products">
+            
+            <div class="container-fuild">
+                <h2>Products</h2>
+                <div class="row product-overview">
+                    <div class="col-lg-5 product-overview-left">
+                        <iframe src="https://www.youtube.com/embed/UOdeJlk3fBw" title="for pronunciation class video player"  allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-7 product-overview-right">
+                        <a class="overview-title" href="#">English Pronunciation in a Global World</a>
+                        <div class="overview-content">
+                            In this course, you will improve your English pronunciation skills and learn about speaking English in today's globalised world.
+                        </div>
+                    </div>
+                </div>
+                <div class="row product-overview">
+                    <div class="col-lg-5 product-overview-left">
+                        <iframe src="https://www.youtube.com/embed/d7ZEOM02kSU" title="for speaking class video player" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-7 product-overview-right">
+                        <a class="overview-title" href="#">Learn to speak English with confidence</a>
+                        <div class="overview-content">
+                            Here you can find activities to practise your speaking skills. You can improve your speaking by noticing the language we use in different situations and practising useful phrases.
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row product-overview">
+                    <div class="col-lg-5 product-overview-left">
+                        <iframe src="https://www.youtube.com/embed/W59Abl7kcp0" title="for listening class video player" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-7 product-overview-right">
+                        <a class="overview-title" href="#">English Listening Lessons</a>
+                        <div class="overview-content">
+                            In this English listening section, students can constantly listen to the audio files provided here. There is also question and answers to allow students to gauge how they are doing.
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="product-box">
+                            <h3>Pronunciation class</h3>
+                            <p class="product-price">19$ <span>/ month</span></p>
+                            <ul>
+                                <li><i class="fa fa-check fmt-icon"></i>Native voices</li>
+                                <li><i class="fa fa-check  fmt-icon"></i>Master IPA</li>
+                            </ul>
+                            <a href="#" class="btn">JOIN US</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="product-box">
+                            <h3>Speaking class</h3>
+                            <p class="product-price">25$ <span>/ month</span></p>
+                            <ul>
+                                <li><i class="fa fa-check  fmt-icon"></i>Native speaking</li>
+                                <li><i class="fa fa-check  fmt-icon"></i>Speaking naturally</li>
+                            </ul>
+                            <a href="#" class="btn">JOIN US</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12" >
+                        <div class="product-box">
+                            <h3>Listening class</h3>
+                            <p class="product-price">25$ <span>/ month</span></p>
+                            <ul>
+                                <li><i class="fa fa-check  fmt-icon"></i>Native speech</li>
+                                <li><i class="fa fa-check  fmt-icon"></i>Hearing english clearly</li>
+                            </ul>
+                            <a href="#" class="btn">JOIN US</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials-section" id="testimonials">
+            <div class="container">
+                <h2>Testimonials</h2>
+                <div class="row">
+                    <div class="col-lg-4 ">
+                        <blockquote>
+                            The course is very helpful, I can speak English fluently and I think The SF English became my second family, I love everyone very much. Thank you!
+                            <cite>
+                                <img src="resources/img/person1.jpeg" alt="person1">Nguyen Van A
+                            </cite>
+                        </blockquote>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <blockquote>
+                            The course is very helpful, I can speak English fluently and I think The SF English became my second family, I love everyone very much. Thank you!
+                            <cite>
+                                <img src="resources/img/person2.jpeg" alt="person2">Nguyen Van B
+                            </cite>
+                        </blockquote>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <blockquote>
+                            Trust me, you can master English just by joining this class, I did, so I believe that you can too. Hope that one day, you can come and join in this class.
+                            <cite>
+                                <img src="resources/img/person3.jpeg" alt="person3">Nguyen Van C
+                            </cite>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sponsors-section" id="sponsors">
+            <div class="container">
+                <h2>Sponsors</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <ul class="sponsors-showcase">
+                            <li>
+                                <figure>
+                                    <img class="logo-sponsor" src="resources/img/barcelona_logo.png" alt="barcelona_logo">
+                                    <figcaption>
+                                        Barcelona
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <ul class="sponsors-showcase">
+                            <li>
+                                <figure>
+                                    <img class="logo-sponsor" src="resources/img/mctcity_logo.png" alt="mctcity_logo">
+                                    <figcaption>
+                                        Manchester City
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>                        
+                    <div class="col-lg-4 col-md-4">
+                        <ul class="sponsors-showcase">
+                            <li>
+                                <figure>
+                                    <img class="logo-sponsor" src="resources/img/bayern_logo.png" alt="bayern_logo">
+                                    <figcaption>
+                                        Bayern Munich
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <ul class="sponsors-showcase">
+                            <li>
+                                <figure>
+                                    <img class="logo-sponsor" src="resources/img/juventus_logo.png" alt="juventus_logo">
+                                    <figcaption>
+                                        Juventus
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <ul class="sponsors-showcase">
+                            <li>
+                                <figure>
+                                    <img class="logo-sponsor" src="resources/img/mctunited_logo.png" alt="mctunited_logo">
+                                    <figcaption>
+                                        Manchester United
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <ul class="sponsors-showcase">
+                            <li>
+                                <figure>
+                                    <img class="logo-sponsor" src="resources/img/real_logo.png" alt="real_logo">
+                                    <figcaption>
+                                        Real Madrid
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section" id="contact">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-lg-5">
+                        <ul class="information">
+                            <li><i class="fa fa-map-marker fmt-icon"></i>Address: Tran Thi Lien St, Phuoc Kien, Nha Be</li>
+                            <li><i class="fa fa-envelope fmt-icon"></i>Email: phuongtran678919@gmail.com</li>
+                            <li><i class="fa fa-phone fmt-icon"></i>Tel: 0379245526</li>
+                        </ul>
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-brands fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-7">
+                        <form method="post" action="#" class="contact-form" id="ctform" onsubmit="return checkInput()">
+                            <table class="contact-table">
+                                <tr>
+                                    <td><label for="name">Name</label></td>
+                                    <td><input id="name" name="name" type="text" placeholder="Your name"></td>  
+                                </tr>
+                                <tr>
+                                    <td><label for="phone">Phone</label></td>
+                                    <td><input id="phone" name="phone" type="text" placeholder="Your phone"></td>  
+                                </tr>
+                                <tr>
+                                    <td><label for="email">Email</label></td>
+                                    <td><input id="email" name="email" type="email" placeholder="Your email"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="msg">Message</label></td>
+                                    <td><textarea id="msg" name="msg" type="text" placeholder="Your message"></textarea>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" id="err-msg"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" ><button type="submit" class="btn">Send It</button></td>
+                                </tr>
+                            </table>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <footer>
+            Copyright &copy; 2022 by Tran Minh Phuong
+        </footer>
+        
+    </body>
+</html>
