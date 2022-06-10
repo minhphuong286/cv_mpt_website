@@ -2,7 +2,9 @@
 ## English Center UI Website 
 
 **Hiện thị giao diện của website trung tâm tiêng Anh**
+
 Típs:
+
 # Header
 - Thanh narvigation bar: Responsive. Khi ở chế độ màn hình mobile (max-width: 767px) sẽ biến đổi thành list-tag chỉ hiện thị khi click icon font-awesome (fa-bars)
 - Click mỗi tag để di chuyển đến section tương ứng. 
