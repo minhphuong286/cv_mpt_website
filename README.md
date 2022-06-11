@@ -1,20 +1,20 @@
 # cv_mpt_website
 ## English Center UI Website 
 
-**Hiện thị giao diện của website trung tâm tiêng Anh**
+**Display UI of the English center**
 
-Típs:
+Tips:
 
 # Header
-- Thanh narvigation bar: Responsive. Khi ở chế độ màn hình mobile (max-width: 767px) sẽ biến đổi thành list-tag chỉ hiện thị khi click icon font-awesome (fa-bars)
-- Click mỗi tag để di chuyển đến section tương ứng. 
+- Narvigation bar: Responsive. With mobile screen (max-width: 767px) will become tag-lists that can show or hide when click icon (font-awesome:fa-bars)
+- Each of tags on narbar can click
 # About us
 - Responsive
 # Photos
-- click select box để chọn option là các chủ đề tương ứng với image trình chiếu
-- Back button để xem ảnh trước đó
-- Next button để xem ảnh tiếp theo
-- Start slideshow để auto trình chiếu ảnh, reclick để Stop slideshow. Trong lúc trình chiếu không thể click Back và Next
+- click select box, choose option 
+- click "Back button" for previous image
+- click "Next button" for next image
+- click "Start slideshow button" for slideshow images, reclick if Stop slideshow. In slideshow section can not click Back and Next button
 # Products
 - Responsive
 # Testimonials
@@ -22,6 +22,7 @@ Típs:
 # Sponsors
 - Responsive
 # Contact
-- Muốn submit Send It button, phải:
-- Điền Name, Phone(option), Email, Message(option)
+- Submit (click Send It button) is permited if name and email are filled out. 
+- Phone and message are only options.
 
+### Resize screen and see changes ###
